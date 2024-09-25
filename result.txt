@@ -1,16 +1,13 @@
 Not Empty
 
-insert Symbol:  AAA  Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+insert Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
 
 
-found Symbol:  AAA  Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+found Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
 
 
-found Symbol:  AAA  Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
-
-
-Symbol:  AAA  Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
- Symbol: A Currentprice: 139.01 Marketcap: 3.9941464064E10 Ebitda: 1.564E9 Revenuegrowth: -0.056
+Symbol: A Currentprice: 139.01 Marketcap: 3.9941464064E10 Ebitda: 1.564E9 Revenuegrowth: -0.056
+ Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
  Symbol: AAL Currentprice: 11.03 Marketcap: 7.243444736E9 Ebitda: 5.150000128E9 Revenuegrowth: 0.02
  Symbol: AAPL Currentprice: 220.69 Marketcap: 3.355392868352E12 Ebitda: 1.31781001216E11 Revenuegrowth: 0.049
  Symbol: ABBV Currentprice: 192.94 Marketcap: 3.40797652992E11 Ebitda: 2.612100096E10 Revenuegrowth: 0.043
@@ -460,7 +457,7 @@ Symbol:  AAA  Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E
  Symbol: ZTS Currentprice: 196.48 Marketcap: 8.901545984E10 Ebitda: 3.644999936E9 Revenuegrowth: 0.083
  
 
-removed Symbol:  AAA  Currentprice: 0.0 Marketcap: 0.0 Ebitda: 0.0 Revenuegrowth: 0.0
+removed Symbol: AAA Currentprice: 0.0 Marketcap: 0.0 Ebitda: 0.0 Revenuegrowth: 0.0
 
 
 Search failed
@@ -916,4 +913,3 @@ Symbol: A Currentprice: 139.01 Marketcap: 3.9941464064E10 Ebitda: 1.564E9 Revenu
  
 
 Invalid Command
-

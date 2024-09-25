@@ -152,7 +152,22 @@ public class Parser {
             // add your cases here
             // call writeToFile
             case "remove":
-                obj = createObj(p);
+                obj = new SPY("a",
+                        p[1],
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        0.0);
                 if(mybst.searchRecursive(mybst.getRoot(), obj) == null)
                     writeToFile("remove failed" ,"./result.txt" );
                 else
@@ -162,7 +177,22 @@ public class Parser {
                 break;
 
             case "search":
-                obj = createObj(p);
+                obj = new SPY("a",
+                        p[1],
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        0.0);
                 Node<SPY> node = mybst.searchRecursive(mybst.getRoot(), obj);
                 if(node == null)
                     writeToFile("Search failed","./result.txt" );
