@@ -1,25 +1,4 @@
 
-insert 111
-             insert 23
+insert NMS,NEWCOMPANY ,Microsoft Corporation,Microsoft Corporation,Technology,Software - Infrastructure,-10000.00, -100000, 129433001984,0.152,Redmond,WA,United States,228000,"fliWashington.",0.06136280752684056
 
-insert 99
-insert         4
-
-isEmpty
-
-    insert     111
-
-print
-
-
-search 9
-
-remove 23
-
-remove 4
-remove 999999
-isEmptyasfh
-print
-
-insert 123
 print
