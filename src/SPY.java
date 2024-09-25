@@ -58,12 +58,15 @@ public class SPY implements Comparable<SPY>{
 
     @Override
     public int compareTo(SPY other){
-        return this.Currentprice.compareTo(other.Currentprice);
+
+        return this.Symbol.compareTo(other.Symbol);
     }
 
-    //@Override
-    public boolean equals(SPY other){
-        return this.compareTo(other) == 0;
+    @Override
+    public boolean equals(Object obj){
+        SPY other = (SPY) obj;
+        return this.getSymbol().equals(other.getSymbol());
+
     }
     public String getSymbol(){
         return this.Symbol;

@@ -56,6 +56,7 @@ public class BST<T extends Comparable<T>> implements Iterable<T>{
 
     // Implement the search method
     public Node<T> searchRecursive(Node<T> r, T e){
+
         if(r == null)
             return r;
 

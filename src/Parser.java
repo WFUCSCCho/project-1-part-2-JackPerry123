@@ -163,10 +163,11 @@ public class Parser {
 
             case "search":
                 obj = createObj(p);
-                if(mybst.searchRecursive(mybst.getRoot(), obj) == null)
+                Node<SPY> node = mybst.searchRecursive(mybst.getRoot(), obj);
+                if(node == null)
                     writeToFile("Search failed","./result.txt" );
                 else
-                    writeToFile("found " + obj.toString(),"./result.txt" );
+                    writeToFile("found " + node.getData().toString(),"./result.txt" );
                 break;
 
             case "print":

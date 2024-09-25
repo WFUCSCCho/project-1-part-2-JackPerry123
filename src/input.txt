@@ -1,4 +1,18 @@
 
-insert NMS,NEWCOMPANY ,Microsoft Corporation,Microsoft Corporation,Technology,Software - Infrastructure,-10000.00, -100000, 129433001984,0.152,Redmond,WA,United States,228000,"fliWashington.",0.06136280752684056
+isEmpty
+
+insert NMS, AAA ,Microsoft Corporation,Microsoft Corporation,Technology,Software - Infrastructure,-10000.00, -100000, 129433001984,0.152,Redmond,WA,United States,228000,"fliWashington.",0.06136280752684056
+
+search NMS, AAA ,Microsoft Corporation,Microsoft Corporation,Technology,Software - Infrastructure,-10000.00, -100000, 129433001984,0.152,Redmond,WA,United States,228000,"fliWashington.",0.06136280752684056
+
+search a, AAA , b, c, d, e, 0.0, 0.0, 0.0, 0.0, j, k, g, g, g, 0.0
 
 print
+
+remove a, AAA , b, c, d, e, 0.0, 0.0, 0.0, 0.0, j, k, g, g, g, 0.0
+
+search NMS, AAA ,Microsoft Corporation,Microsoft Corporation,Technology,Software - Infrastructure,-10000.00, -100000, 129433001984,0.152,Redmond,WA,United States,228000,"fliWashington.",0.06136280752684056
+
+print
+
+This should result in "invalid command"
