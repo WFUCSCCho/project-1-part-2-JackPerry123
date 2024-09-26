@@ -5,6 +5,7 @@ public class Parser {
 
     //Create a BST tree of Integer type
     private BST<SPY> mybst = new BST<>();
+    private BST<SPY> dataSet = new BST<>();
 
     public Parser(String filename, String csv) throws FileNotFoundException {
         process(new File(filename), new File(csv));
@@ -48,7 +49,7 @@ public class Parser {
                     p[14],
                     Double.parseDouble(p[15]));
 
-            mybst.insert(s);
+            dataSet.insert(s);
 
 
         }
@@ -145,6 +146,31 @@ public class Parser {
         SPY obj;
         switch (p[0]) {
             case "insert":
+                obj = new SPY("a",
+                        p[1],
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        0.0);
+
+                Node<SPY> n1 = dataSet.searchRecursive(dataSet.getRoot(), obj);
+                mybst.insert(n1.getData());
+                writeToFile("insert " + n1.getData().toString(),"./result.txt" );
+                break;
+
+
+
+            case "insertNewElement":
                 obj = createObj(p);
                 mybst.insert(obj);
                 writeToFile("insert " + obj.toString(),"./result.txt" );
@@ -168,10 +194,11 @@ public class Parser {
                         "a",
                         "a",
                         0.0);
-                if(mybst.searchRecursive(mybst.getRoot(), obj) == null)
+                Node<SPY> n2 = mybst.searchRecursive(mybst.getRoot(), obj);
+                if(n2.getData() == null)
                     writeToFile("remove failed" ,"./result.txt" );
                 else
-                    writeToFile("removed " + obj.toString(),"./result.txt" );
+                    writeToFile("removed " + n2.getData().toString(),"./result.txt" );
 
                 mybst.remove(obj);
                 break;
