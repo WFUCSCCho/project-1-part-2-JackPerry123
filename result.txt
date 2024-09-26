@@ -1,0 +1,28 @@
+Empty
+
+insert Symbol: MSFT Currentprice: 430.81 Marketcap: 3.20222789632E12 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+
+
+Symbol: MSFT Currentprice: 430.81 Marketcap: 3.20222789632E12 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+ 
+
+insert Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+
+
+found Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+
+
+Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+ Symbol: MSFT Currentprice: 430.81 Marketcap: 3.20222789632E12 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+ 
+
+removed Symbol: AAA Currentprice: -10000.0 Marketcap: -100000.0 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+
+
+Search failed
+
+Symbol: MSFT Currentprice: 430.81 Marketcap: 3.20222789632E12 Ebitda: 1.29433001984E11 Revenuegrowth: 0.152
+ 
+
+Invalid Command
+
